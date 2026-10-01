@@ -164,3 +164,24 @@ nav{
     justify-content: center;
     gap: 18px;
 }
+
+#aboutuscontent{
+    display: flex;
+}
+
+#aboutustext{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.paragraphtitle{
+    color: var(--paragaph-title);
+    font-family: var(--title-font);
+}
+
+#imgaboutus{
+    background: linear-gradient(102.38deg, #A659D6 0%, #472966 50%, #140F1F 100%);
+    width: 570px;
+    height: 320px;
+}
